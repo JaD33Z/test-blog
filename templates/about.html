@@ -1,0 +1,32 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading"><h3>Welcome To My Project!</h3></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hello and thank you for visiting my blog app page. The main scope of this project is to demonstrate some of my work. This is a RESTful app. Scripted in Python3. Built using Flask, Bootstrap, Jinja, SQLite, SQLalchemy, CKEditor, WTForms, and several other libraries.</p>
+          <p>Users can register, then create a user name and password. Relationships are formed between the classes and their properties. Then they are stored in the database. Passwords are encrypted, hashed and salted. Once authenticated, users can then add and edit their own post entries, comment on posts, and login and out. If you enjoyed this check out some of my other projects on github.</p>
+        <p>I am a freelance programmer. I enjoy playing guitar, riding motorcycles, coding, and creating. Through music and recording on my Mac, I developed a passion for computer science and programming.</p>
+        <p>I love technology, it fascinates me and I want to be involved in it's development and advancement. I aim to join a team of creative talented individuals I can share my ideas and contribute my abilities with. If you'd like to connect or hire, I welcome you to contact me on GitHub for more info.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
