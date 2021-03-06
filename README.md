@@ -1,7 +1,7 @@
 # test-blog
 Blog app built with Flask. Features include - users, register, authentication, posts, edit.
 
-[View Blog App Page Here](https://test-blog-jd.herokuapp.com/)
+
 
 This is a RESTful app. Scripted in Python3. Built using Flask, Bootstrap, Jinja,
 SQLite/Postgres, SQLalchemy, CKEditor, WTForms, and several other libraries.
